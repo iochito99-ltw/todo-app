@@ -1,0 +1,19 @@
+{
+  "name": "todoApp",
+  "version": "1.0.0",
+  "description": "TODOアプリ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "5.13.0",
+    "dayjs": "1.11.10",
+    "prisma": "5.13.0",
+    "pug": "^3.0.4"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

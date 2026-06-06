@@ -1,0 +1,95 @@
+body {
+  font-family: "DotGothic16", sans-serif;
+  background-color: #fffbe2;
+}
+
+.page-title {
+  font-family: "DotGothic16", sans-serif;
+  font-size: 24px;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #ffd800;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+
+.list-group-item {
+  background-color: #fffbe2;
+  border-color: #d4a017;
+}
+
+.list-group-item span {
+  line-height: 1.9;
+  display: inline-block;
+}
+
+.done span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.btn-toggle {
+  border: 1px solid #f7c600;
+  color: #f7c600;
+  background-color: transparent;
+}
+
+.btn-toggle:hover {
+  background-color: #fff3cd;
+  border-color: #f7c600;
+}
+
+.btn-new {
+  font-family: "DotGothic16", sans-serif;
+  font-size: 14px;
+  padding: 4px 10px;
+  border: 1px solid #ffd800;
+  background-color: #ffe680;
+  color: #000;
+  border-radius: 4px;
+}
+
+.btn-new:hover {
+  background-color: #fff8cc;
+}
+
+textarea.form-control {
+  font-family: "DotGothic16", sans-serif;
+  font-size: 14px;
+  padding: 6px 8px;
+  width: 100%;
+  max-width: 400px;
+  height: 60px;
+  max-height: 120px;
+  border: 1px solid #ffd800;
+  background-color: #fffceb;
+  border-radius: 4px;
+  resize: none;
+}
+
+textarea.form-control:focus {
+  outline: none;
+  border-color: #ffea6a;
+  box-shadow: 0 0 0 2px rgba(255, 216, 0, 0.3);
+}
+
+a {
+  color: #d4a017;
+  text-decoration: none;
+  font-family: "DotGothic16", sans-serif;
+}
+
+a:hover {
+  color: #ffdd55;
+  text-decoration: underline;
+}
+
+.home-icon {
+  width: 28px;
+  height: 28px;
+  color: #d4a017;
+  font-size: 18px;
+}
+
+.home-icon:hover {
+  color: #ffdd55;
+}
