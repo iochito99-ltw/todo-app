@@ -9,4 +9,4 @@ COPY . .
 
 RUN npx prisma generate
 
-CMD ["node", "index.js"]
+CMD ["sh", "-c", "npx prisma migrate deploy && node index.js"]
